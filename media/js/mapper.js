@@ -6,7 +6,7 @@ char_mapper = {
 }
 
 function get_map(x):
-	if (x in char_mapper) { 
+	if (x in char_mapper) {
 		return char_mapper[x]
 	}
 	else {
